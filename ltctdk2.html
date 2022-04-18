@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Bài 1 -->
+    <h1>Chuyển đổi độ C sang F</h1>
+    <input type="number" id="c" placeholder="Nhập vào độ C">
+    <button type="button" onclick="convert()">Convert</button>
+    <!-- Bài 2 -->
+    <h1>Chuyển Mét sang Feet</h1>
+    <input type="number" id="m" placeholder="Nhập vào số mét">
+    <button type="button" id="convert1">Convert</button>
+    <!-- Bài 3 -->
+    <h1>Tính diện tích hình vuông</h1>
+    <input type="number" id="hv" placeholder="Nhập chiều dài 1 cạnh hình vuông">
+    <button type="button" id="convert2">Convert</button>
+    <!-- Bài 4 -->
+    <h1>Tính Diện Tích Hình Chữ Nhật</h1>
+    <input type="number" id="a" placeholder="Nhập vào cạnh a">
+    <input type="number" id="b" placeholder="Nhập vào cạnh b">
+    <button type="button" onclick="convert3()">Convert</button>
+    <!-- Bài 5 -->
+    <h1>Tính Diện Tích Tam Giác Vuông</h1>
+    <input type="number" id="q" placeholder="Nhập vào cạnh a">
+    <input type="number" id="w" placeholder="Nhập vào cạnh b">
+    <button type="button" onclick="convert4()">Convert</button>
+    <!-- Bài 6 -->
+    <h1>Giải Phương Trình Bậc 1</h1>
+    <h2>ax + b = 0</h2>
+    <input type="number" id="e" onchange="myFunction1" placeholder="Nhập vào giá trị a">
+    <input type="number" id="r" placeholder="Nhập vào giá trị b">
+    <button type="button" onclick="convert5()">GPT</button>
+    <p id="resu"></p>
+    <!-- Bài 7 -->
+    <h1>Giải Phương Trình Bậc 2</h1>
+    <h2>ax<sup>2</sup> + bx + c= 0</h2>
+    <input type="number" id="y" onchange="myFunction()" placeholder="Nhập vào giá trị a">
+    <input type="number" id="u" placeholder="Nhập vào giá trị b">
+    <input type="number" id="i" placeholder="Nhập vào giá trị c">
+    <button type="button" id="convert6">GPT</button>
+    <p id='resul'></p>
+    
+    <!-- Bài 8 -->
+    <h1>Kiểm Tra Tuổi Của Con Người</h1>
+    <input type="number" id="age1" placeholder="Nhập vào số tuổi">
+    <button type="button" onclick="age2()">Check</button>
+
+    <!-- Bài 9 -->
+    <h1>Kiểm Tra Cạnh Tam Giác</h1>
+    <input type="number" id="h" placeholder="Nhập vào cạnh a">
+    <input type="number" id="j" placeholder="Nhập vào cạnh b">
+    <input type="number" id="k" placeholder="Nhập vào cạnh c">
+    <p id="re12"></p>
+    <button type="button" onclick="but12()">Check</button>
+
+    <!-- Bài 10 -->
+    <h1>Tính giá điện</h1>
+    <p>Số điện nhập vào theo đơn vị kW</p>
+    <p>Chỉ số điện cũ</p>
+    <input type="number" id="kwOld" title="Đơn vị kW">
+    <br>
+    <p>Chỉ số điện mới</p>
+    <input type="number" id="kwNew" title="Đơn vị kW">
+    <br>
+    <br>
+    <button type="button" onclick="btkw()">Check</button>
+    <!-- Bài 11 -->
+    <h1>Tính thuế thu nhập cá nhân</h1>
+    <input type="number" id="salary" placeholder="Nhập sô lương của bạn" title="Đơn vị VND">
+    <button type="button" id="tax">SalaryAfterTax</button>
+    <p id="result"></p>
+
+    <!-- Bài 12 -->
+    <h1>Tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng.</h1>
+    <p>Nhập số tiền vay ngân hàng</p>
+    <input type="number" title="Đơn vị VND" id="money" placeholder="Số tiền vay ngân hàng ">
+    <p>Nhập số tháng vay</p>
+    <input type="number" id="month" title="1 năm = 12 tháng" placeholder="Nhập số tháng vay">
+    <p>Nhập lãi suất hàng tháng</p>
+    <input type="text" title="Đơn vị %" id="interestRate">
+    <br>
+    <br>
+    <button id="result5" type="button">Kiểm tra</button>
+
+
+
+
+    <script src="ltctdk2.js"></script>
+</body>
+</html>
